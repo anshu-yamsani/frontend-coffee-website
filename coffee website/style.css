@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    height: 100vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+    padding: 0.5rem 6%;
+}
+.logoo{
+    height: 60px;
+}
+.navbar{
+    a{
+        margin: 30px;
+        text-decoration: none; 
+    }
+}
+.icons i{
+    margin: 30px;
+}
+.body{
+    height: 100vh;
+    background: url(bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#text{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: -150px;  
+}
+.text2{
+    font-size: 15px;
+    margin-left: 115px;
+    margin-top: -50px;
+}
+.get{
+    margin-left: 180px;
+    .getitnow{
+        padding: 8px 20px 8px 20px;
+        background-color: rgb(166, 128, 57);
+        border-color: white;
+    }
+}
+.about{
+    background-color: black;
+    padding: 50px;
+}
+.aboutus{
+    font-size: 55px;
+    text-align: center;
+    span{
+        color: rgb(166, 128, 57);
+    }
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    img{
+        height: 380px;
+        width: 500px;
+    }
+    h1{
+        font-size: 40px;
+        margin-left: 35px;
+    }
+    pre{
+        font-size: 20px;
+    }
+    button{
+        padding: 8px 20px 8px 20px;
+        background-color: rgb(166, 128, 57);
+        margin-left: 35px;
+    }
+}
+.menu{
+    background-color: black;
+    text-align: center;
+    .ourmenu{
+        font-size: 55px;
+        span{
+            color: rgb(166, 128, 57);
+        }
+    }
+    .griddisplay{
+        display: grid;
+        grid-template-rows: 450px 450px;
+        grid-template-columns: 450px 450px 450px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+.tea{
+    border: 1px solid rgb(168, 162, 162);
+    padding: 30px 0px 30px 0px;
+    img{
+        height: 150px;
+    }
+    h1,h3{
+        font-size: 30px;
+    }
+    button{
+        padding: 10px 20px 10px 20px;
+        font-size: 15px;
+        background-color: rgb(166, 128, 57);
+    }
+}
+.products{
+    background-color: black;
+    .latestproducts{
+        text-align: center;
+        font-size: 55px;
+        padding: 30px;
+        span{
+            color: rgb(166, 128, 57);
+        }
+    }
+    .displayboxes{
+        display: flex;
+        gap: 20px;
+    }
+    .box{
+        margin-left: 150px;
+        height: 325px;
+        width: 300px;
+        border: 1px solid rgb(168, 162, 162);
+        .boxes{
+            display: flex;
+            gap: 30px;
+            margin-left: 60px;
+            margin-top: 10px;
+            .box1,.box2,.box3{
+                border: 1px solid rgb(168, 162, 162);
+                padding: 10px;
+            }
+        }
+        .cover{
+            margin-left: 35px;
+        }
+        .textcover{
+            text-align: center;
+            margin-top: -20px;
+        }
+        .starsss{
+            display: flex;
+            gap: 10px;
+            margin-left: 85px;
+            margin-top: 10px;
+        }
+    }
+}
+.review{
+    background-color: black;
+    .customerreview{
+        text-align: center;
+        padding: 70px;
+        font-size: 55px;
+        span{
+            color: rgb(166, 128, 57);
+        }
+    }
+    .tags{
+        display: flex;
+        margin-left: 40%;
+        gap: 10px;
+        font-size: 40px;
+    }
+    .custboxes{
+        display: flex;
+        gap: 40px;
+        margin-left: 8%;
+    }
+    .custbox{
+        text-align: center;
+        height: 500px;
+        width: 400px;
+        border: 1px solid rgb(168, 162, 162);
+    }
+    .starsss{
+        display: flex;
+        gap: 10px;
+        margin-left: 130px;
+        margin-top: 10px;
+    }
+}
+.contact{
+    background-color: black;
+    text-align: center;
+    .contactus{
+        padding: 50px;
+        font-size: 55px;
+        span{
+            color: rgb(166, 128, 57);
+        }
+    }
+    .contactdiv{
+        display: flex;
+        margin-left: 225px;
+        .getintouchbox{
+            width: 450px;
+            background-color: rgb(31, 31, 44);
+            h1{
+                margin-top: 50px;
+            }
+            input{
+                padding: 10px 150px 10px 20px;
+                background-color: transparent;
+            }
+            .contactbut{
+                padding: 10px 20px;
+                background-color: rgb(166, 128, 57);
+            }
+        }
+    }
+}
+.last{
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+    span{
+        color: rgb(166, 128, 57);
+    }
+}
